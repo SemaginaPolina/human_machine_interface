@@ -1891,3 +1891,942 @@ WCCILproxy   (1), 2022.04.05 19:01:14.673, SYS,  INFO,      170, Signal SIGTERM 
 WCCILproxy   (1), 2022.04.05 19:01:15.258, SYS,  INFO,      221, Multiplexing proxy Stop
 WCCILpmon    (1), 2022.04.05 19:01:15.336, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2022.04.05 19:01:15.337, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 20:05:52.029, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2022.04.05 20:05:52.152, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ Repository -pmonIndex 1 
+WCCILdata    (0), 2022.04.05 20:05:52.269, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILdata    (0), 2022.04.05 20:05:52.277, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2022.04.05 20:05:53.288, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.04.05 20:05:53.289, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.04.05 20:05:53.290, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 20:05:53.336, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2022.04.05 20:05:53.391, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2022.04.05 20:05:53.393, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2022.04.05 20:05:53.394, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2022.04.05 20:05:53.396, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2022.04.05 20:05:53.400, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:05:53.455, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2022.04.05 20:05:53.460, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2022.04.05 20:05:53.522, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2022.04.05 20:05:53.627, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (0), 2022.04.05 20:05:53.639, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2022.04.05 20:05:53.642, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:53.644, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:53.646, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2022.04.05 20:05:53.658, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:05:53.850, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2022.04.05 20:05:54.067, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (1), 2022.04.05 20:05:54.079, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2022.04.05 20:05:54.081, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.084, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.086, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2022.04.05 20:05:54.092, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:05:54.284, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2022.04.05 20:05:54.395, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (2), 2022.04.05 20:05:54.408, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2022.04.05 20:05:54.411, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.413, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.415, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2022.04.05 20:05:54.417, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:05:54.504, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2022.04.05 20:05:54.616, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (3), 2022.04.05 20:05:54.628, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2022.04.05 20:05:54.631, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.633, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.636, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2022.04.05 20:05:54.638, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:05:54.823, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2022.04.05 20:05:54.934, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (4), 2022.04.05 20:05:54.946, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2022.04.05 20:05:54.948, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.950, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:54.953, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2022.04.05 20:05:54.956, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:05:55.148, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2022.04.05 20:05:55.254, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (5), 2022.04.05 20:05:55.265, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2022.04.05 20:05:55.268, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:55.270, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:55.272, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2022.04.05 20:05:55.285, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2022.04.05 20:05:56.671, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:05:56.701, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.04.05 20:05:57.107, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:05:57.139, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2022.04.05 20:05:57.435, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:05:57.467, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2022.04.05 20:05:57.653, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:05:57.684, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2022.04.05 20:05:57.685, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2022.04.05 20:05:57.966, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:05:57.982, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.04.05 20:05:58.110, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2022.04.05 20:05:58.282, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2022.04.05 20:05:58.287, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ Repository -pmonIndex 8 
+WCCILdata    (0), 2022.04.05 20:05:58.312, SYS,  INFO,        0, , Sending initial values to archive
+WCCILevent   (0), 2022.04.05 20:05:58.396, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILevent   (0), 2022.04.05 20:05:58.403, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCOAvalarch (2), 2022.04.05 20:05:58.451, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (3), 2022.04.05 20:05:58.667, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2022.04.05 20:05:58.981, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2022.04.05 20:05:59.288, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2022.04.05 20:05:59.492, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 20:05:59.537, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 20:05:59.540, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCILevent   (0), 2022.04.05 20:05:59.596, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2022.04.05 20:05:59.599, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:05:59.601, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:05:59.660, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 20:05:59.661, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCILdata    (0), 2022.04.05 20:05:59.790, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2022.04.05 20:05:59.791, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2022.04.05 20:05:59.792, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2022.04.05 20:05:59.856, SYS,  INFO,      168, Initialize 141 alerts
+WCCILevent   (0), 2022.04.05 20:05:59.860, SYS,  SEVERE,    105, Invalid license, Eventmanager will shutdown after the demo period of 1800 seconds
+WCCILpmon    (1), 2022.04.05 20:05:59.870, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ Repository -pmonIndex 9 
+WCCILevent   (0), 2022.04.05 20:05:59.919, SYS,  INFO,      103, User names/passwords initialized
+WCCILdata    (0), 2022.04.05 20:05:59.924, SYS,  INFO,      103, User names/passwords initialized
+WCCILproxy   (1), 2022.04.05 20:05:59.994, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILproxy   (1), 2022.04.05 20:06:00.002, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2022.04.05 20:06:00.186, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ Repository -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2022.04.05 20:06:00.298, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOActrl    (0), 2022.04.05 20:06:00.304, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2022.04.05 20:06:00.307, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:06:00.316, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:06:00.321, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2022.04.05 20:06:00.325, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2022.04.05 20:06:00.326, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2022.04.05 20:06:00.339, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:06:00.340, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, ctrl
+WCCILevent   (0), 2022.04.05 20:06:00.341, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCOActrl    (1), 2022.04.05 20:06:00.344, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2022.04.05 20:06:00.344, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2022.04.05 20:06:00.347, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2022.04.05 20:06:00.518, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCOActrl    (1), 2022.04.05 20:06:00.721, CTRL, INFO,        0, , DB Version Update, 3.18 DB version 5, nothing to do
+WCCILsim     (1), 2022.04.05 20:06:00.744, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILsim     (1), 2022.04.05 20:06:00.760, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.04.05 20:06:00.764, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:06:00.765, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:06:00.788, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2022.04.05 20:06:00.789, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 20:06:00.791, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2022.04.05 20:06:00.793, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:06:00.806, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, driver
+WCCILevent   (0), 2022.04.05 20:06:00.808, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILsim     (1), 2022.04.05 20:06:00.811, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 1800 seconds
+WCCILsim     (1), 2022.04.05 20:06:00.812, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2022.04.05 20:06:00.912, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ Repository -pmonIndex 12 -m gedi
+WCCOAui      (0), 2022.04.05 20:06:01.834, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAui      (0), 2022.04.05 20:06:03.219, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2022.04.05 20:06:03.222, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:06:03.224, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:06:03.240, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2022.04.05 20:06:03.242, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2022.04.05 20:06:03.242, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2022.04.05 20:06:03.255, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:06:03.256, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, ui
+WCCILevent   (0), 2022.04.05 20:06:03.257, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCOAui      (1), 2022.04.05 20:06:03.262, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2022.04.05 20:06:03.265, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2022.04.05 20:06:03.276, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2022.04.05 20:06:03.321, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAui      (1), 2022.04.05 20:06:09.397, SYS,  SEVERE,    105, Invalid license, No License 'recipe' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.18\scripts\libs\rcp.ctc
+WCCOAui      (1), 2022.04.05 20:06:09.676, SYS,  SEVERE,    105, Invalid license, No License 'maintenance' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.18\scripts\libs\wh_sc.ctc
+WCCOActrl    (1), 2022.04.05 20:06:31.529, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2022.04.05 20:07:03.835, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2022.04.05 20:07:03.836, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 20:07:03.842, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2022.04.05 20:07:03.842, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2022.04.05 20:07:03.843, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2022.04.05 20:07:04.872, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2022.04.05 20:07:04.873, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2022.04.05 20:07:04.873, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2022.04.05 20:07:04.874, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2022.04.05 20:07:04.875, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2022.04.05 20:07:04.876, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2022.04.05 20:07:04.989, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILdatabg  (1), 2022.04.05 20:07:04.995, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2022.04.05 20:07:04.998, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:07:05.000, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:07:05.007, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2022.04.05 20:07:05.517, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2022.04.05 20:07:05.518, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 20:36:00.822, SYS,  SEVERE,    105, Invalid license, Demo period expired, exiting...
+WCCILsim     (1), 2022.04.05 20:36:00.822, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2022.04.05 20:36:00.823, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:00.823, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 20:36:00.824, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 20:36:00.930, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 20:36:00.931, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCILevent   (0), 2022.04.05 20:36:00.931, SYS,  FATAL,     105, Invalid license, License timer expired, exiting...
+WCCILevent   (0), 2022.04.05 20:36:00.933, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2022.04.05 20:36:00.933, SYS,  INFO,      181, Closing connection to (SYS: 1 Ctrl -num 1 CONN: 1)
+WCCILevent   (0), 2022.04.05 20:36:00.933, SYS,  INFO,      181, Closing connection to (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2022.04.05 20:36:00.934, SYS,  INFO,      181, Closing connection to (SYS: 1 Ui -num 1 CONN: 1)
+WCCILevent   (0), 2022.04.05 20:36:00.934, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 20:36:00.931, SYS,  SEVERE,    105, Invalid license, MAN: (SYS: 1 Event -num 0 CONN: 1), License timer expired, exiting...
+WCCILsim     (1), 2022.04.05 20:36:00.935, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection reset by peer (10054)
+WCCOActrl    (1), 2022.04.05 20:36:00.935, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 20:36:00.935, SYS,  INFO,        2, Manager Stop
+WCCILevent   (0), 2022.04.05 20:36:00.935, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+onnection to Event Manager, exiting ...
+WCCILevent   (0), 2022.04.05 20:36:00.936, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+NECT
+WCCILdata    (0), 2022.04.05 20:36:00.936, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 20:36:00.937, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.937, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.938, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCILevent   (0), 2022.04.05 20:36:00.938, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 20:36:00.938, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.939, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.939, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.940, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.940, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.940, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOAui      (1), 2022.04.05 20:36:00.931, SYS,  FATAL,     105/_errors, Invalid license, License timer expired, exiting...
+WCCOActrl    (1), 2022.04.05 20:36:00.941, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.941, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.942, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.942, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.943, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.943, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.943, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.944, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.944, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.944, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.945, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.945, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.946, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCILpmon    (1), 2022.04.05 20:36:00.945, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCOActrl    (1), 2022.04.05 20:36:00.946, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.947, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.947, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.947, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.948, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.948, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.948, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.949, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.949, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.950, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.950, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.951, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.951, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.951, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.952, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.953, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.953, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCILpmon    (1), 2022.04.05 20:36:00.953, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCOActrl    (1), 2022.04.05 20:36:00.954, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.955, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.956, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.957, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.957, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.958, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.958, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.959, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.960, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.960, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.961, SYS,  WARNING,   118, Last error already repeated 50 times. Until another output occurs, this one will be blocked.
+WCCOActrl    (1), 2022.04.05 20:36:00.963, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 20:36:00.963, SYS,  INFO,      119, Last error repeated 116 times.
+WCCOActrl    (1), 2022.04.05 20:36:00.963, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:00.964, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 20:36:00.965, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2022.04.05 20:36:01.019, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 20:36:01.020, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 20:36:01.027, SYS,  INFO,        2, Manager Stop
+WCCILevent   (0), 2022.04.05 20:36:01.038, SYS,  INFO,        2, Manager Stop
+WCCILsim     (1), 2022.04.05 20:36:01.172, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILsim     (1), 2022.04.05 20:36:01.198, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.04.05 20:36:01.201, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:01.203, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:01.260, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2022.04.05 20:36:01.260, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 20:36:01.262, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILpmon    (1), 2022.04.05 20:36:01.388, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2022.04.05 20:36:01.496, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.497, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2022.04.05 20:36:01.498, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.04.05 20:36:01.499, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILpmon    (1), 2022.04.05 20:36:01.498, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILdata    (0), 2022.04.05 20:36:01.499, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 20:36:01.499, SYS,  INFO,      101, Connection to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998 failed, new attempt in 20 secs
+WCCOAvalarch (5), 2022.04.05 20:36:01.499, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.04.05 20:36:01.500, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILpmon    (1), 2022.04.05 20:36:01.499, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2022.04.05 20:36:01.501, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 20:36:01.501, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILsim     (1), 2022.04.05 20:36:01.500, SYS,  FATAL,      63, Connection error, Lost connection to data during initialization, exiting...
+WCCOAvalarch (3), 2022.04.05 20:36:01.502, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.04.05 20:36:01.502, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 20:36:01.502, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2022.04.05 20:36:01.503, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 20:36:01.503, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2022.04.05 20:36:01.504, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 20:36:01.504, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2022.04.05 20:36:01.505, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAvalarch (5), 2022.04.05 20:36:05.544, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2022.04.05 20:36:05.544, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+Connection closed
+WCCILdata    (0), 2022.04.05 20:36:05.546, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2022.04.05 20:36:05.546, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (4), 2022.04.05 20:36:05.546, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.547, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2022.04.05 20:36:05.547, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 20:36:05.547, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 20:36:05.548, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (2), 2022.04.05 20:36:05.548, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 20:36:05.549, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (2), 2022.04.05 20:36:05.549, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.549, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:2
+WCCOAvalarch (2), 2022.04.05 20:36:05.549, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 20:36:05.549, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 20:36:05.550, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (4), 2022.04.05 20:36:05.550, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 20:36:05.551, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (4), 2022.04.05 20:36:05.551, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.551, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2022.04.05 20:36:05.551, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (1), 2022.04.05 20:36:05.557, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2022.04.05 20:36:05.558, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.558, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCOAvalarch (1), 2022.04.05 20:36:05.559, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+X_VC
+WCCILdata    (0), 2022.04.05 20:36:05.560, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (1), 2022.04.05 20:36:05.560, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.560, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2022.04.05 20:36:05.561, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 20:36:05.561, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 20:36:05.561, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (3), 2022.04.05 20:36:05.561, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 20:36:05.562, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (3), 2022.04.05 20:36:05.562, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.563, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCOAvalarch (3), 2022.04.05 20:36:05.563, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2022.04.05 20:36:05.588, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.588, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (0), 2022.04.05 20:36:05.589, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+X_VC
+WCCILdata    (0), 2022.04.05 20:36:05.590, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (0), 2022.04.05 20:36:05.590, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 20:36:05.590, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCOAvalarch (0), 2022.04.05 20:36:05.590, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 20:36:31.540, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGKILL
+WCCILdata    (0), 2022.04.05 20:36:31.566, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILpmon    (1), 2022.04.05 20:36:31.647, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2022.04.05 20:36:32.579, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2022.04.05 20:36:32.579, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2022.04.05 20:36:32.580, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2022.04.05 20:36:32.580, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2022.04.05 20:36:32.581, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+on closed
+WCCILdata    (0), 2022.04.05 20:36:32.581, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2022.04.05 20:36:32.582, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2022.04.05 20:36:32.582, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2022.04.05 20:36:32.582, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 20:36:33.595, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 20:36:33.604, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 20:36:33.611, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2022.04.05 20:36:33.612, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2022.04.05 20:36:34.016, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2022.04.05 20:36:34.048, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2022.04.05 20:36:34.159, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ Repository -pmonIndex 1 
+WCCILdata    (0), 2022.04.05 20:36:34.274, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILdata    (0), 2022.04.05 20:36:34.281, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2022.04.05 20:36:35.295, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.04.05 20:36:35.296, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.04.05 20:36:35.297, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 20:36:35.343, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2022.04.05 20:36:35.401, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2022.04.05 20:36:35.403, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2022.04.05 20:36:35.404, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2022.04.05 20:36:35.406, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2022.04.05 20:36:35.410, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:36:35.466, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2022.04.05 20:36:35.472, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2022.04.05 20:36:35.566, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2022.04.05 20:36:35.680, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (0), 2022.04.05 20:36:35.693, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2022.04.05 20:36:35.696, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:35.698, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:35.701, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2022.04.05 20:36:35.717, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:36:35.890, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2022.04.05 20:36:35.999, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (1), 2022.04.05 20:36:36.011, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2022.04.05 20:36:36.013, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:36.015, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:36.017, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2022.04.05 20:36:36.024, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:36:36.213, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2022.04.05 20:36:36.322, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (2), 2022.04.05 20:36:36.334, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2022.04.05 20:36:36.337, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:36.339, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:36.342, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2022.04.05 20:36:36.343, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:36:36.540, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2022.04.05 20:36:36.759, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (3), 2022.04.05 20:36:36.771, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2022.04.05 20:36:36.774, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:36.776, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:36.778, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2022.04.05 20:36:36.780, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:36:36.974, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2022.04.05 20:36:37.181, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (4), 2022.04.05 20:36:37.194, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2022.04.05 20:36:37.196, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:37.198, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:37.200, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2022.04.05 20:36:37.203, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 20:36:37.410, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2022.04.05 20:36:37.520, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (5), 2022.04.05 20:36:37.533, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2022.04.05 20:36:37.535, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:37.537, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:37.540, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2022.04.05 20:36:37.547, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2022.04.05 20:36:38.739, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:36:38.754, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.04.05 20:36:39.031, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:36:39.063, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2022.04.05 20:36:39.369, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:36:39.400, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2022.04.05 20:36:39.742, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (3), 2022.04.05 20:36:39.804, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:36:39.820, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.04.05 20:36:40.040, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2022.04.05 20:36:40.222, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 20:36:40.238, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2022.04.05 20:36:40.379, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2022.04.05 20:36:40.552, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2022.04.05 20:36:40.557, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ Repository -pmonIndex 8 
+WCCILdata    (0), 2022.04.05 20:36:40.582, SYS,  INFO,        0, , Sending initial values to archive
+WCCILevent   (0), 2022.04.05 20:36:40.759, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILevent   (0), 2022.04.05 20:36:40.765, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCOAvalarch (3), 2022.04.05 20:36:40.813, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2022.04.05 20:36:41.231, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2022.04.05 20:36:41.554, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2022.04.05 20:36:41.846, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 20:36:41.893, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 20:36:41.896, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCILevent   (0), 2022.04.05 20:36:41.950, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2022.04.05 20:36:41.954, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:41.956, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:36:42.014, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 20:36:42.015, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCILdata    (0), 2022.04.05 20:36:42.157, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2022.04.05 20:36:42.158, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2022.04.05 20:36:42.159, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2022.04.05 20:36:42.222, SYS,  INFO,      168, Initialize 141 alerts
+WCCILevent   (0), 2022.04.05 20:36:42.227, SYS,  SEVERE,    105, Invalid license, Eventmanager will shutdown after the demo period of 1800 seconds
+WCCILevent   (0), 2022.04.05 20:36:42.274, SYS,  INFO,      103, User names/passwords initialized
+WCCILdata    (0), 2022.04.05 20:36:42.277, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2022.04.05 20:36:42.279, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ Repository -pmonIndex 9 
+WCCILproxy   (1), 2022.04.05 20:36:42.499, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILproxy   (1), 2022.04.05 20:36:42.507, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2022.04.05 20:36:42.703, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ Repository -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2022.04.05 20:36:42.817, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOActrl    (0), 2022.04.05 20:36:42.824, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2022.04.05 20:36:42.827, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:42.836, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:42.842, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2022.04.05 20:36:42.846, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2022.04.05 20:36:42.847, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2022.04.05 20:36:42.849, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:36:42.850, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, ctrl
+WCCILevent   (0), 2022.04.05 20:36:42.851, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCOActrl    (1), 2022.04.05 20:36:42.855, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2022.04.05 20:36:42.856, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2022.04.05 20:36:42.859, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2022.04.05 20:36:43.030, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCILsim     (1), 2022.04.05 20:36:43.139, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILsim     (1), 2022.04.05 20:36:43.162, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.04.05 20:36:43.166, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:43.168, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:43.178, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2022.04.05 20:36:43.178, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 20:36:43.179, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2022.04.05 20:36:43.181, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:36:43.198, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, driver
+WCCILevent   (0), 2022.04.05 20:36:43.199, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILsim     (1), 2022.04.05 20:36:43.202, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 1800 seconds
+WCCOActrl    (1), 2022.04.05 20:36:43.202, CTRL, INFO,        0, , DB Version Update, 3.18 DB version 5, nothing to do
+WCCILsim     (1), 2022.04.05 20:36:43.202, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2022.04.05 20:36:43.353, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ Repository -pmonIndex 12 -m gedi
+WCCOAui      (0), 2022.04.05 20:36:44.314, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAui      (0), 2022.04.05 20:36:47.440, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2022.04.05 20:36:47.443, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:47.445, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:36:47.466, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2022.04.05 20:36:47.466, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2022.04.05 20:36:47.467, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2022.04.05 20:36:47.480, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 20:36:47.481, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, ui
+WCCILevent   (0), 2022.04.05 20:36:47.483, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCOAui      (1), 2022.04.05 20:36:47.488, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2022.04.05 20:36:47.493, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2022.04.05 20:36:47.502, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2022.04.05 20:36:47.578, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAui      (1), 2022.04.05 20:36:53.638, SYS,  SEVERE,    105, Invalid license, No License 'recipe' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.18\scripts\libs\rcp.ctc
+WCCOAui      (1), 2022.04.05 20:36:53.908, SYS,  SEVERE,    105, Invalid license, No License 'maintenance' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.18\scripts\libs\wh_sc.ctc
+WCCOActrl    (1), 2022.04.05 20:37:13.790, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2022.04.05 20:37:48.133, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2022.04.05 20:37:48.133, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 20:37:48.142, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2022.04.05 20:37:48.142, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2022.04.05 20:37:48.143, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2022.04.05 20:37:49.145, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2022.04.05 20:37:49.145, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2022.04.05 20:37:49.146, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2022.04.05 20:37:49.147, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2022.04.05 20:37:49.148, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2022.04.05 20:37:49.149, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2022.04.05 20:37:49.263, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILdatabg  (1), 2022.04.05 20:37:49.269, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2022.04.05 20:37:49.272, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:37:49.274, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 20:37:49.280, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2022.04.05 20:37:49.791, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2022.04.05 20:37:49.791, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 21:06:43.218, SYS,  SEVERE,    105, Invalid license, Demo period expired, exiting...
+WCCILsim     (1), 2022.04.05 21:06:43.218, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2022.04.05 21:06:43.219, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:43.219, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 21:06:43.219, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:06:43.282, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 21:06:43.283, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCILevent   (0), 2022.04.05 21:06:43.284, SYS,  FATAL,     105, Invalid license, License timer expired, exiting...
+WCCILevent   (0), 2022.04.05 21:06:43.285, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2022.04.05 21:06:43.286, SYS,  INFO,      181, Closing connection to (SYS: 1 Ctrl -num 1 CONN: 1)
+WCCILevent   (0), 2022.04.05 21:06:43.286, SYS,  INFO,      181, Closing connection to (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2022.04.05 21:06:43.286, SYS,  INFO,      181, Closing connection to (SYS: 1 Ui -num 1 CONN: 1)
+WCCILevent   (0), 2022.04.05 21:06:43.287, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 21:06:43.284, SYS,  SEVERE,    105, Invalid license, MAN: (SYS: 1 Event -num 0 CONN: 1), License timer expired, exiting...
+WCCILsim     (1), 2022.04.05 21:06:43.287, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection reset by peer (10054)
+WCCOActrl    (1), 2022.04.05 21:06:43.287, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:06:43.288, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2022.04.05 21:06:43.288, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCILsim     (1), 2022.04.05 21:06:43.288, SYS,  INFO,        2, Manager Stop
+WCCILevent   (0), 2022.04.05 21:06:43.289, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+
+WCCOActrl    (1), 2022.04.05 21:06:43.289, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.289, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.290, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCILevent   (0), 2022.04.05 21:06:43.290, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 21:06:43.290, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.291, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.291, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.291, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.292, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.292, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.292, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.293, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.293, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.293, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOAui      (1), 2022.04.05 21:06:43.284, SYS,  FATAL,     105/_errors, Invalid license, License timer expired, exiting...
+WCCOActrl    (1), 2022.04.05 21:06:43.294, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.294, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.294, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.295, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.295, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.295, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.296, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.296, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.297, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.297, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.298, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCILpmon    (1), 2022.04.05 21:06:43.297, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCOActrl    (1), 2022.04.05 21:06:43.299, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.299, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.300, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.300, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.301, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.301, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.302, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.302, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.303, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.303, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.304, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCILpmon    (1), 2022.04.05 21:06:43.303, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCOActrl    (1), 2022.04.05 21:06:43.304, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.305, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.305, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.306, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.306, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.307, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.307, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.308, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.308, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.308, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.309, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.309, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.310, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.310, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.310, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.311, SYS,  WARNING,   118, Last error already repeated 50 times. Until another output occurs, this one will be blocked.
+WCCOActrl    (1), 2022.04.05 21:06:43.312, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_DISCONNECT
+WCCOActrl    (1), 2022.04.05 21:06:43.313, SYS,  INFO,      119, Last error repeated 116 times.
+WCCOActrl    (1), 2022.04.05 21:06:43.312, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:43.314, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 21:06:43.314, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 21:06:43.366, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2022.04.05 21:06:43.376, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:06:43.429, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:06:43.446, SYS,  INFO,        2, Manager Stop
+WCCILsim     (1), 2022.04.05 21:06:43.478, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILsim     (1), 2022.04.05 21:06:43.501, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.04.05 21:06:43.504, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:43.506, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:43.560, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2022.04.05 21:06:43.560, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 21:06:43.562, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILpmon    (1), 2022.04.05 21:06:43.624, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2022.04.05 21:06:43.734, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.735, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2022.04.05 21:06:43.736, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.04.05 21:06:43.736, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILpmon    (1), 2022.04.05 21:06:43.736, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILdata    (0), 2022.04.05 21:06:43.737, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 21:06:43.737, SYS,  INFO,      101, Connection to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998 failed, new attempt in 20 secs
+WCCOAvalarch (5), 2022.04.05 21:06:43.737, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+ 0 CONN: 1), Connection closed
+WCCILpmon    (1), 2022.04.05 21:06:43.737, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2022.04.05 21:06:43.738, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:06:43.738, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILsim     (1), 2022.04.05 21:06:43.738, SYS,  FATAL,      63, Connection error, Lost connection to data during initialization, exiting...
+WCCOAvalarch (3), 2022.04.05 21:06:43.740, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.04.05 21:06:43.740, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 21:06:43.739, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2022.04.05 21:06:43.741, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:06:43.741, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2022.04.05 21:06:43.742, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:06:43.742, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2022.04.05 21:06:43.743, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAui      (1), 2022.04.05 21:06:47.150, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.151, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2022.04.05 21:06:47.152, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2022.04.05 21:06:47.308, CTRL, WARNING,    38, Message could not be sent, 
+    Module: Para_1_paraPanel
+    Panel: C:\Siemens\Automation\WinCC_OA\3.18\panels\para\alert_hdl.pnl [Обработка_алармов]
+    Script: Terminate
+    Line: 5, dpSet
+WCCOAui      (1), 2022.04.05 21:06:47.489, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (2), 2022.04.05 21:06:47.800, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.800, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (5), 2022.04.05 21:06:47.800, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.801, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (2), 2022.04.05 21:06:47.801, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:06:47.802, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (2), 2022.04.05 21:06:47.802, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.802, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:2
+WCCOAvalarch (2), 2022.04.05 21:06:47.803, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2022.04.05 21:06:47.803, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.803, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (5), 2022.04.05 21:06:47.804, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+X_VC
+WCCILdata    (0), 2022.04.05 21:06:47.804, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (5), 2022.04.05 21:06:47.805, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.805, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2022.04.05 21:06:47.805, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:06:47.806, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:06:47.807, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2022.04.05 21:06:47.807, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2022.04.05 21:06:47.807, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCOAvalarch (3), 2022.04.05 21:06:47.808, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (3), 2022.04.05 21:06:47.809, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2022.04.05 21:06:47.809, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2022.04.05 21:06:47.815, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2022.04.05 21:06:47.815, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.815, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (0), 2022.04.05 21:06:47.816, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+X_VC
+WCCILdata    (0), 2022.04.05 21:06:47.817, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (0), 2022.04.05 21:06:47.818, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+ne, archive number is:0
+WCCILdata    (0), 2022.04.05 21:06:47.819, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCOAvalarch (1), 2022.04.05 21:06:47.819, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+X_VC
+WCCILdata    (0), 2022.04.05 21:06:47.820, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (1), 2022.04.05 21:06:47.820, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2022.04.05 21:06:47.820, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:06:47.820, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2022.04.05 21:06:47.820, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:06:47.821, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:06:47.822, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (4), 2022.04.05 21:06:47.822, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:06:47.823, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCOAvalarch (4), 2022.04.05 21:06:47.823, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:06:47.823, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2022.04.05 21:06:47.823, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 21:06:47.870, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2022.04.05 21:06:48.835, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2022.04.05 21:06:48.835, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2022.04.05 21:06:48.835, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2022.04.05 21:06:48.836, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:06:48.836, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 1 CONN: 1), Connection closed
+WCCILdatabg  (1), 2022.04.05 21:06:48.836, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+WCCILdata    (0), 2022.04.05 21:06:48.837, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2022.04.05 21:06:48.837, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2022.04.05 21:06:48.838, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2022.04.05 21:06:48.838, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:06:49.843, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 21:06:49.853, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 21:06:49.953, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2022.04.05 21:06:49.954, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2022.04.05 21:06:50.748, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2022.04.05 21:06:50.825, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2022.04.05 21:06:50.937, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ Repository -pmonIndex 1 
+WCCILdata    (0), 2022.04.05 21:06:51.042, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILdata    (0), 2022.04.05 21:06:51.049, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2022.04.05 21:06:52.066, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.04.05 21:06:52.067, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.04.05 21:06:52.068, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 21:06:52.111, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2022.04.05 21:06:52.163, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2022.04.05 21:06:52.165, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2022.04.05 21:06:52.166, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2022.04.05 21:06:52.169, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2022.04.05 21:06:52.173, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 21:06:52.225, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2022.04.05 21:06:52.230, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2022.04.05 21:06:52.264, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2022.04.05 21:06:52.464, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (0), 2022.04.05 21:06:52.475, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2022.04.05 21:06:52.478, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:52.481, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:52.484, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2022.04.05 21:06:52.494, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 21:06:52.594, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2022.04.05 21:06:52.793, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (1), 2022.04.05 21:06:52.804, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2022.04.05 21:06:52.807, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:52.809, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:52.811, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2022.04.05 21:06:52.825, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 21:06:52.924, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2022.04.05 21:06:53.025, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (2), 2022.04.05 21:06:53.036, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2022.04.05 21:06:53.039, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.041, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.043, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2022.04.05 21:06:53.044, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 21:06:53.256, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2022.04.05 21:06:53.357, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (3), 2022.04.05 21:06:53.369, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2022.04.05 21:06:53.370, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.372, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.374, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2022.04.05 21:06:53.375, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 21:06:53.477, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2022.04.05 21:06:53.684, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (4), 2022.04.05 21:06:53.695, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2022.04.05 21:06:53.698, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.700, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.702, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2022.04.05 21:06:53.711, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2022.04.05 21:06:53.808, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2022.04.05 21:06:53.910, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAvalarch (5), 2022.04.05 21:06:53.921, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2022.04.05 21:06:53.924, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.925, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:53.928, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2022.04.05 21:06:53.930, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2022.04.05 21:06:55.509, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 21:06:55.524, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.04.05 21:06:55.837, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 21:06:55.853, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2022.04.05 21:06:56.059, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 21:06:56.075, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2022.04.05 21:06:56.390, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 21:06:56.406, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2022.04.05 21:06:56.517, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2022.04.05 21:06:56.720, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 21:06:56.736, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.04.05 21:06:56.844, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2022.04.05 21:06:56.956, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.04.05 21:06:56.988, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2022.04.05 21:06:57.008, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ Repository -pmonIndex 8 
+WCCOAvalarch (2), 2022.04.05 21:06:57.064, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2022.04.05 21:06:57.217, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILevent   (0), 2022.04.05 21:06:57.226, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2022.04.05 21:06:57.316, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 21:06:57.359, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 21:06:57.362, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCOAvalarch (3), 2022.04.05 21:06:57.406, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2022.04.05 21:06:57.421, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2022.04.05 21:06:57.424, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:57.426, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 21:06:57.485, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: Ошибка 200. Не найдена запись в CmContainer.
+WCCILevent   (0), 2022.04.05 21:06:57.486, SYS,  SEVERE,    105, Invalid license, DESKTOP-9P3H9IG: No license found
+WCCILdata    (0), 2022.04.05 21:06:57.625, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2022.04.05 21:06:57.626, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2022.04.05 21:06:57.628, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2022.04.05 21:06:57.686, SYS,  INFO,      168, Initialize 140 alerts
+WCCILevent   (0), 2022.04.05 21:06:57.690, SYS,  SEVERE,    105, Invalid license, Eventmanager will shutdown after the demo period of 1800 seconds
+WCCILevent   (0), 2022.04.05 21:06:57.732, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (4), 2022.04.05 21:06:57.734, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2022.04.05 21:06:57.738, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2022.04.05 21:06:57.768, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ Repository -pmonIndex 9 
+WCCILproxy   (1), 2022.04.05 21:06:57.887, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILproxy   (1), 2022.04.05 21:06:57.895, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCOAvalarch (5), 2022.04.05 21:06:57.960, SYS,  INFO,        0, , Ready for operation.
+WCCILpmon    (1), 2022.04.05 21:06:58.102, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ Repository -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2022.04.05 21:06:58.213, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOActrl    (0), 2022.04.05 21:06:58.219, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2022.04.05 21:06:58.222, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:58.231, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:58.237, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2022.04.05 21:06:58.240, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2022.04.05 21:06:58.241, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2022.04.05 21:06:58.243, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 21:06:58.244, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, ctrl
+WCCILevent   (0), 2022.04.05 21:06:58.245, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCOActrl    (1), 2022.04.05 21:06:58.247, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2022.04.05 21:06:58.248, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2022.04.05 21:06:58.250, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2022.04.05 21:06:58.432, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCILsim     (1), 2022.04.05 21:06:58.557, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILsim     (1), 2022.04.05 21:06:58.576, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.04.05 21:06:58.579, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:06:58.581, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCOActrl    (1), 2022.04.05 21:06:58.593, CTRL, INFO,        0, , DB Version Update, 3.18 DB version 5, nothing to do
+WCCILdata    (0), 2022.04.05 21:06:58.595, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2022.04.05 21:06:58.596, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 21:06:58.597, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2022.04.05 21:06:58.616, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 21:06:58.631, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, driver
+WCCILevent   (0), 2022.04.05 21:06:58.633, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILsim     (1), 2022.04.05 21:06:58.637, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 1800 seconds
+WCCILsim     (1), 2022.04.05 21:06:58.638, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2022.04.05 21:06:58.761, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ Repository -pmonIndex 12 -m gedi
+WCCOAui      (0), 2022.04.05 21:06:59.709, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCOAui      (0), 2022.04.05 21:07:01.480, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2022.04.05 21:07:01.483, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:07:01.485, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:07:01.508, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2022.04.05 21:07:01.512, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2022.04.05 21:07:01.513, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2022.04.05 21:07:01.525, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILevent   (0), 2022.04.05 21:07:01.527, SYS,  WARNING,   105, Invalid license, DESKTOP-9P3H9IG: No license found, Running as demo version, ui
+WCCILevent   (0), 2022.04.05 21:07:01.528, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCOAui      (1), 2022.04.05 21:07:01.530, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2022.04.05 21:07:01.533, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2022.04.05 21:07:01.543, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2022.04.05 21:07:01.600, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAui      (1), 2022.04.05 21:07:07.952, SYS,  SEVERE,    105, Invalid license, No License 'recipe' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.18\scripts\libs\rcp.ctc
+WCCOAui      (1), 2022.04.05 21:07:08.222, SYS,  SEVERE,    105, Invalid license, No License 'maintenance' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.18\scripts\libs\wh_sc.ctc
+WCCOActrl    (1), 2022.04.05 21:07:28.828, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2022.04.05 21:08:01.971, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2022.04.05 21:08:01.972, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 21:08:01.976, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2022.04.05 21:08:01.977, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2022.04.05 21:08:01.977, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2022.04.05 21:08:02.977, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2022.04.05 21:08:02.978, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2022.04.05 21:08:02.978, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2022.04.05 21:08:02.979, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2022.04.05 21:08:02.980, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2022.04.05 21:08:02.981, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2022.04.05 21:08:03.190, SYS,  INFO,        1, Manager Start, PROJ, Repository, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILdatabg  (1), 2022.04.05 21:08:03.196, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2022.04.05 21:08:03.199, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:08:03.201, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILdata    (0), 2022.04.05 21:08:03.205, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2022.04.05 21:08:03.701, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2022.04.05 21:08:03.702, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2022.04.05 21:11:49.067, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2022.04.05 21:11:49.068, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:11:49.068, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:11:49.068, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2022.04.05 21:11:49.068, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2022.04.05 21:11:49.069, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2022.04.05 21:11:49.221, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 21:11:56.058, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.04.05 21:11:56.059, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2022.04.05 21:11:56.060, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:11:56.060, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOActrl    (1), 2022.04.05 21:11:56.061, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:11:56.061, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCOAvalarch (5), 2022.04.05 21:11:56.062, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:11:56.062, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2022.04.05 21:11:56.063, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:11:56.063, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCOAvalarch (3), 2022.04.05 21:11:56.064, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:11:56.064, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2022.04.05 21:11:56.065, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:11:56.065, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2022.04.05 21:11:56.066, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.04.05 21:11:56.066, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2022.04.05 21:11:56.067, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.04.05 21:11:56.105, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2022.04.05 21:11:56.105, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:11:56.105, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:11:56.106, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 21:11:56.106, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 21:11:56.106, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 21:11:56.107, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2022.04.05 21:11:56.109, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2022.04.05 21:11:56.110, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:11:56.110, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 21:11:56.111, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:11:56.111, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 21:11:56.111, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.04.05 21:11:56.112, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2022.04.05 21:11:56.156, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (5), 2022.04.05 21:12:00.102, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:12:00.103, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (2), 2022.04.05 21:12:00.104, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (2), 2022.04.05 21:12:00.104, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:12:00.104, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (2), 2022.04.05 21:12:00.105, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (5), 2022.04.05 21:12:00.105, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (5), 2022.04.05 21:12:00.105, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2022.04.05 21:12:00.106, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (1), 2022.04.05 21:12:00.119, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2022.04.05 21:12:00.119, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:12:00.120, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:12:00.121, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2022.04.05 21:12:00.121, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:12:00.121, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCOAvalarch (1), 2022.04.05 21:12:00.122, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:12:00.122, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCILdata    (0), 2022.04.05 21:12:00.123, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCOAvalarch (0), 2022.04.05 21:12:00.128, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2022.04.05 21:12:00.129, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (4), 2022.04.05 21:12:00.129, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2022.04.05 21:12:00.129, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+ne, archive number is:4
+WCCOAvalarch (4), 2022.04.05 21:12:00.130, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:12:00.131, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (0), 2022.04.05 21:12:00.132, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (0), 2022.04.05 21:12:00.133, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2022.04.05 21:12:00.133, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:12:00.132, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCILpmon    (1), 2022.04.05 21:12:00.239, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2022.04.05 21:12:00.240, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2022.04.05 21:12:00.351, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2022.04.05 21:12:00.353, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.04.05 21:12:00.354, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:12:00.354, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.04.05 21:12:00.369, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 21:12:00.461, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2022.04.05 21:12:01.360, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2022.04.05 21:12:01.360, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2022.04.05 21:12:01.360, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2022.04.05 21:12:01.361, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2022.04.05 21:12:01.361, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+WCCILdata    (0), 2022.04.05 21:12:01.361, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2022.04.05 21:12:01.362, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2022.04.05 21:12:01.362, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2022.04.05 21:12:01.362, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2022.04.05 21:12:01.363, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.04.05 21:12:02.374, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.04.05 21:12:02.384, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 21:12:02.436, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2022.04.05 21:12:02.437, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2022.04.05 21:12:03.349, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2022.04.05 21:12:03.429, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.04.05 21:12:03.429, SYS,  INFO,        2, Manager Stop

@@ -142,3 +142,86 @@ WCCILpmon    (1), 2022.04.05 19:01:12.594, SYS,  INFO,       17/pmon, Stopping M
 WCCILpmon    (1), 2022.04.05 19:01:14.672, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
 WCCILpmon    (1), 2022.04.05 19:01:15.336, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2022.04.05 19:01:15.337, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.04.05 20:05:52.029, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2022.04.05 20:05:52.152, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ Repository -pmonIndex 1 
+WCCILpmon    (1), 2022.04.05 20:05:53.522, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 2 -num 0
+WCCILpmon    (1), 2022.04.05 20:05:53.850, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 3 -num 1
+WCCILpmon    (1), 2022.04.05 20:05:54.284, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 4 -num 2
+WCCILpmon    (1), 2022.04.05 20:05:54.504, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 5 -num 3
+WCCILpmon    (1), 2022.04.05 20:05:54.823, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 6 -num 4
+WCCILpmon    (1), 2022.04.05 20:05:55.148, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 7 -num 5
+WCCILpmon    (1), 2022.04.05 20:05:58.287, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ Repository -pmonIndex 8 
+WCCILpmon    (1), 2022.04.05 20:05:59.870, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ Repository -pmonIndex 9 
+WCCILpmon    (1), 2022.04.05 20:06:00.186, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ Repository -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.04.05 20:06:00.518, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCILpmon    (1), 2022.04.05 20:06:00.912, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ Repository -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2022.04.05 20:06:03.321, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.04.05 20:36:00.945, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2022.04.05 20:36:00.953, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCILpmon    (1), 2022.04.05 20:36:01.388, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2022.04.05 20:36:01.496, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.497, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.498, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.499, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.501, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.502, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.503, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:01.504, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:31.540, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGKILL
+WCCILpmon    (1), 2022.04.05 20:36:31.647, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:33.611, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 20:36:34.048, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2022.04.05 20:36:34.159, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ Repository -pmonIndex 1 
+WCCILpmon    (1), 2022.04.05 20:36:35.566, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 2 -num 0
+WCCILpmon    (1), 2022.04.05 20:36:35.890, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 3 -num 1
+WCCILpmon    (1), 2022.04.05 20:36:36.213, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 4 -num 2
+WCCILpmon    (1), 2022.04.05 20:36:36.540, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 5 -num 3
+WCCILpmon    (1), 2022.04.05 20:36:36.974, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 6 -num 4
+WCCILpmon    (1), 2022.04.05 20:36:37.410, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 7 -num 5
+WCCILpmon    (1), 2022.04.05 20:36:40.557, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ Repository -pmonIndex 8 
+WCCILpmon    (1), 2022.04.05 20:36:42.279, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ Repository -pmonIndex 9 
+WCCILpmon    (1), 2022.04.05 20:36:42.703, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ Repository -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.04.05 20:36:43.030, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCILpmon    (1), 2022.04.05 20:36:43.353, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ Repository -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2022.04.05 20:36:47.578, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.04.05 21:06:43.297, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2022.04.05 21:06:43.303, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCILpmon    (1), 2022.04.05 21:06:43.624, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2022.04.05 21:06:43.734, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.735, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.736, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.737, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.738, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.739, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.741, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:43.742, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:47.870, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:49.953, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:06:50.825, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2022.04.05 21:06:50.937, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ Repository -pmonIndex 1 
+WCCILpmon    (1), 2022.04.05 21:06:52.264, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 2 -num 0
+WCCILpmon    (1), 2022.04.05 21:06:52.594, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 3 -num 1
+WCCILpmon    (1), 2022.04.05 21:06:52.924, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 4 -num 2
+WCCILpmon    (1), 2022.04.05 21:06:53.256, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 5 -num 3
+WCCILpmon    (1), 2022.04.05 21:06:53.477, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 6 -num 4
+WCCILpmon    (1), 2022.04.05 21:06:53.808, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAvalarch.exe -PROJ Repository -pmonIndex 7 -num 5
+WCCILpmon    (1), 2022.04.05 21:06:57.008, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ Repository -pmonIndex 8 
+WCCILpmon    (1), 2022.04.05 21:06:57.768, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ Repository -pmonIndex 9 
+WCCILpmon    (1), 2022.04.05 21:06:58.102, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ Repository -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.04.05 21:06:58.432, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ Repository -pmonIndex 11 
+WCCILpmon    (1), 2022.04.05 21:06:58.761, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ Repository -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2022.04.05 21:07:01.600, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.04.05 21:11:56.058, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.04.05 21:11:56.059, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:11:56.060, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:11:56.061, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:11:56.062, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:11:56.063, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:11:56.064, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:11:56.065, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:11:56.066, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:12:00.239, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:12:00.461, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:12:02.436, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.04.05 21:12:03.429, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.04.05 21:12:03.429, SYS,  INFO,        2, Manager Stop
