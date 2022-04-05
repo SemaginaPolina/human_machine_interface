@@ -1,0 +1,24 @@
+WCCILsim     (1), 2022.04.05 16:34:28.246, SYS,  INFO,        1, Manager Start, PROJ, Test, V 3.18 - 3.18   platform Windows AMD64 linked at Dec 14 2021 20:28:12 (f190776a789)
+WCCILsim     (1), 2022.04.05 16:34:28.266, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.04.05 16:34:28.268, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILsim     (1), 2022.04.05 16:34:28.271, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._address:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.271, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._cmd_conv:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.273, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._msg_conv:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.273, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._smooth:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.273, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_Refresh.SecsToRefresh:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.278, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.04.05 16:34:28.278, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2022.04.05 16:34:28.293, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-9P3H9IG (::1)
+WCCILsim     (1), 2022.04.05 16:34:28.310, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 1800 seconds
+WCCILsim     (1), 2022.04.05 16:34:28.310, SYS,  INFO,      156, Driver initialization finished.
+WCCILsim     (1), 2022.04.05 16:34:28.311, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AClasses:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.311, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AckDps:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.311, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AckData:_original.._value
+WCCILsim     (1), 2022.04.05 16:34:28.323, PARAM,WARNING,    90, DP attribute was connected twice, DP: (Type: 0 Sys: 1 Dp: 0 El: 0 : ..)
+WCCILsim     (1), 2022.04.05 16:34:28.323, PARAM,WARNING,    54, Unexpected state, AlertDrvIntDp, dpReady, dpConnect failed to Ack DPs
+WCCILsim     (1), 2022.04.05 16:34:58.104, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.04.05 16:34:58.145, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2022.04.05 16:34:58.145, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILsim     (1), 2022.04.05 16:34:58.145, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 16:34:58.145, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.04.05 16:34:58.146, SYS,  INFO,        2, Manager Stop
