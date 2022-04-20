@@ -1,0 +1,467 @@
+V 14
+1
+LANG:10027 0 
+PANEL,-1 -1 500 400 N "_3DFace" 0
+E E E E E 1 -1 -1 0  28 86.53680555555559
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+"pdpi" "141.585"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+1
+LANG:10027 0 
+2 1
+"PRIMITIVE_TEXT5"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 3.9 0 0.6666666666666666 -60 -25.33333333333333 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 35 Скорость корвейера
+2 2
+"PRIMITIVE_TEXT6"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+1 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.033333333333334 0 0.6666666666666666 -62.40000000000001 10.5368055555556 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 47 Грузоподъемность тележки
+14 3
+"TEXT_FIELD1"
+""
+1 300.3461538461539 43.49895833333326 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+2 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  298.3461538461539 37.96006944444437 392.346153846154 63.19340277777778
+3 "4d" 4 0 0 0 0 -1  E E E
+14 4
+"TEXT_FIELD2"
+""
+1 300.3461538461539 75.87013888888893 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+3 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  298.3461538461539 70.33125000000001 392.346153846154 95.56458333333333
+3 "4d" 4 0 0 0 0 -1  E E E
+2 5
+"PRIMITIVE_TEXT7"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+4 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 0.9705555555555549 0 0.6666666666666666 372.3555555555556 -25.33333333333333 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 9 м/мин
+2 6
+"PRIMITIVE_TEXT8"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+5 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 0.6333333333333333 0 0.6666666666666666 379.1 7.166666666666671 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 4 кг
+2 7
+"PRIMITIVE_TEXT9"
+""
+1 10 10 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+6 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1 0 0.6666666666666666 10 3.333333333333334 0 E 10 10 260 40
+0 2 2 "0s" 0 0 0 64 0 0  10 10 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 43 Параметры оборудования
+2 8
+"PRIMITIVE_TEXT10"
+""
+1 10 10 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+7 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.12 0 0.6666666666666666 8.799999999999999 115.3333333333333 0 E 10 10 260 40
+0 2 2 "0s" 0 0 0 64 0 0  10 10 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 60 Вероятность отказа оборудования
+2 9
+"PRIMITIVE_TEXT11"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+8 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.7 0 0.6666666666666666 -74 87.16666666666666 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 16 Корвейер
+2 10
+"PRIMITIVE_TEXT12"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+9 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.666666666666666 0 0.6666666666666666 -73.27533333333332 119.7305555555555 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 18 Двигатель
+2 11
+"PRIMITIVE_TEXT13"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+10 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.666666666666666 0 0.6666666666666666 -73.11493504273494 149.936111111111 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 12 Сканер
+2 12
+"PRIMITIVE_TEXT14"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+11 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.668600740740739 0 0.6666666666666666 -73.37201481481475 180.3208333333333 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 14 Тележка
+2 13
+"PRIMITIVE_TEXT15"
+""
+1 20 100 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+12 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.548688888888889 0 0.6666666666666666 -70.99133504273497 213.461111111111 0 E 20 100 80 130
+0 2 2 "0s" 0 0 0 64 0 0  20 100 1
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 1
+LANG:10027 43 Сортировочный корвейер
+14 14
+"TEXT_FIELD3"
+""
+1 302.163076923077 157.5045138888889 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+13 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  300.163076923077 151.965625 394.1630769230771 177.1989583333333
+3 "4d" 4 0 0 0 0 -1  E E E
+14 15
+"TEXT_FIELD4"
+""
+1 302.0023076923078 188.6666666666667 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+14 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  300.0023076923078 183.1277777777778 394.0023076923079 208.3611111111111
+3 "4d" 4 0 0 0 0 -1  E E E
+14 16
+"TEXT_FIELD5"
+""
+1 302.0011538461539 218.7444444444444 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+15 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  300.0011538461539 213.2055555555555 394.001153846154 238.4388888888888
+3 "4d" 4 0 0 0 0 -1  E E E
+14 17
+"TEXT_FIELD6"
+""
+1 302.0011538461539 249.8472222222222 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+16 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  300.0011538461539 244.3083333333333 394.001153846154 269.5416666666666
+3 "4d" 4 0 0 0 0 -1  E E E
+14 18
+"TEXT_FIELD7"
+""
+1 302.0011538461539 282.3333333333333 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+17 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  300.0011538461539 276.7944444444444 394.001153846154 302.0277777777777
+3 "4d" 4 0 0 0 0 -1  E E E
+13 19
+"save4"
+""
+1 220.5602564102563 352.5256410256411 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+18 0 0 0 0 0
+E E E
+8
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  218.5602564102563 345.5256410256411 342.5602564102563 379.5256410256411
+
+T 
+1
+LANG:10027 18 Сохранить
+E E E E
+13 20
+"cancel4"
+""
+1 360.8833333333333 352.5256410256411 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+19 0 0 0 0 0
+E E E
+8
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  358.8833333333333 345.5256410256411 482.8833333333333 379.5256410256411
+
+T 
+1
+LANG:10027 16 Отменить
+"// SimpleCtrlScriptStart {valid}
+main()
+{
+  EP_panelOff();
+}
+
+void EP_panelOff()
+{
+  PanelOff();
+}
+
+// SimpleCtrlScript {EP_panelOff}
+// Function {PanelOff}
+// Panel {}
+// Module {}
+// SimpleCtrlScriptEnd {EP_panelOff}
+" 0
+ E E E
+0
+LAYER, 1 
+1
+LANG:10027 0 
+0
+LAYER, 2 
+1
+LANG:10027 0 
+0
+LAYER, 3 
+1
+LANG:10027 0 
+0
+LAYER, 4 
+1
+LANG:10027 0 
+0
+LAYER, 5 
+1
+LANG:10027 0 
+0
+LAYER, 6 
+1
+LANG:10027 0 
+0
+LAYER, 7 
+1
+LANG:10027 0 
+0
+0
