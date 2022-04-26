@@ -1,0 +1,139 @@
+V 14
+1
+LANG:10027 0 
+PANEL,-1 -1 557 400 N "_3DFace" 0
+E E E E E 1 -1 -1 0  30 60
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+"pdpi" "141.585"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+1
+LANG:10027 0 
+23 1
+"TREND1"
+""
+1 10 9.999999999999972 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+0  8 7.999999999999972 552 352.0000000000001
+5 E E E 1 809 N {0,0,0} 0 0 1 0 1 0 3 0 "Годные" "System1:cart.state.weight" 2 2 0 0 1 "3 2 0.0" "%x" 0 1 2 0 E
+E
+1 0 0 3 2
+1
+LANG:10027 49 Тележка с годными товарами
+1
+LANG:10027 0 
+1 "" ""  0 -2.1474836e+09 -2.1474836e+09 0 0 1 0 1 N "Red"
+0 0 0 0 0 0 0 0
+0 "Исправимые" "System1:cart2.state.weight" 3 2 0 0 1 "3 2 0.0" "%x" 0 1 2 0 E
+E
+1 0 0 3 2
+1
+LANG:10027 57 Тележка с исправимыми товарами
+1
+LANG:10027 0 
+1 "" ""  1 0 0 1 0 1 N "blue"
+0 0 0 0 0 0 0 0
+0 "Негодные" "System1:cart3.state.weight" 4 2 0 0 1 "3 2 0.0" "%x" 0 1 2 0 E
+E
+1 0 0 3 2
+1
+LANG:10027 53 Тележка с негодными товарами
+1
+LANG:10027 0 
+1 "" ""  1 0 0 1 0 1 N "Green"
+0 0 0 0 0 0 0 0
+1 1 "%H:%M:%S" "%x" 0 1 0 0 
+E 1 1 1 0 90 0 20 7200
+1
+LANG:10027 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+0  1
+LANG:10027 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+0  1
+LANG:10027 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+0  100 
+N {0,0,0} 0 0 1 0 1 150 1 5 5 1 2
+0
+13 2
+"cancel4"
+""
+1 430 366 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+1 0 0 0 0 0
+E E E
+8
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  428 359 552 393
+
+T 
+1
+LANG:10027 16 Отменить
+"// SimpleCtrlScriptStart {valid}
+main()
+{
+  EP_panelOff();
+}
+
+void EP_panelOff()
+{
+  PanelOff();
+}
+
+// SimpleCtrlScript {EP_panelOff}
+// Function {PanelOff}
+// Panel {}
+// Module {}
+// SimpleCtrlScriptEnd {EP_panelOff}
+" 0
+ E E E
+0
+LAYER, 1 
+1
+LANG:10027 0 
+0
+LAYER, 2 
+1
+LANG:10027 0 
+0
+LAYER, 3 
+1
+LANG:10027 0 
+0
+LAYER, 4 
+1
+LANG:10027 0 
+0
+LAYER, 5 
+1
+LANG:10027 0 
+0
+LAYER, 6 
+1
+LANG:10027 0 
+0
+LAYER, 7 
+1
+LANG:10027 0 
+0
+0
